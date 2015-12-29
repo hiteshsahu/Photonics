@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:float="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/material_bg"
+    android:fillViewport="true"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="#70000000"
+        android:gravity="top"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/login_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Driver Register"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:text="We will send a SMS with a confirmation code for your number"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <com.serveroverload.customview.FloatLabeledEditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                float:fletPaddingBottom="10dp" >
+
+                <EditText
+                    android:id="@+id/first_Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounder_rectangle_visa_card"
+                    android:hint="First Name"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:textSize="20sp" />
+            </com.serveroverload.customview.FloatLabeledEditText>
+
+            <com.serveroverload.customview.FloatLabeledEditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                float:fletPaddingBottom="10dp" >
+
+                <EditText
+                    android:id="@+id/last_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounder_rectangle_visa_card"
+                    android:hint="Last Name"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:textSize="20sp" />
+            </com.serveroverload.customview.FloatLabeledEditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <com.serveroverload.customview.FloatLabeledEditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                float:fletPaddingBottom="10dp" >
+
+                <EditText
+                    android:id="@+id/father_first_Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounder_rectangle_visa_card"
+                    android:hint="Father&apos;s First Name"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:textSize="20sp" />
+            </com.serveroverload.customview.FloatLabeledEditText>
+
+            <com.serveroverload.customview.FloatLabeledEditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                float:fletPaddingBottom="10dp" >
+
+                <EditText
+                    android:id="@+id/father_last_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounder_rectangle_visa_card"
+                    android:hint="Fathher&apos;s Last Name"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:textSize="20sp" />
+            </com.serveroverload.customview.FloatLabeledEditText>
+        </LinearLayout>
+
+        <com.serveroverload.customview.FloatLabeledEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            float:fletPaddingBottom="10dp" >
+
+            <EditText
+                android:id="@+id/emil_add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounder_rectangle_visa_card"
+                android:ems="10"
+                android:hint="E-Mail Address"
+                android:inputType="textEmailAddress"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textSize="20sp" />
+        </com.serveroverload.customview.FloatLabeledEditText>
+
+        <com.serveroverload.customview.FloatLabeledEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            float:fletPaddingBottom="10dp" >
+
+            <EditText
+                android:id="@+id/licence_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounder_rectangle_visa_card"
+                android:ems="10"
+                android:hint="Licence Number"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textSize="20sp" />
+        </com.serveroverload.customview.FloatLabeledEditText>
+
+        <com.serveroverload.customview.FloatLabeledEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            float:fletPaddingBottom="10dp" >
+
+            <EditText
+                android:id="@+id/vehicle_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounder_rectangle_visa_card"
+                android:ems="10"
+                android:hint="Vehicle Plate Number"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textSize="20sp" />
+        </com.serveroverload.customview.FloatLabeledEditText>
+
+        <com.serveroverload.customview.FloatLabeledEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            float:fletPaddingBottom="10dp" >
+
+            <EditText
+                android:id="@+id/rto_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounder_rectangle_visa_card"
+                android:ems="10"
+                android:hint="Vehicle Registration Number"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textSize="20sp" />
+        </com.serveroverload.customview.FloatLabeledEditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounder_rectangle_visa_card"
+                android:gravity="center_horizontal|center_vertical"
+                android:padding="5dp"
+                android:text="+91"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/login_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rounder_rectangle_visa_card"
+                android:ems="10"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="Enter Number"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:padding="5dp"
+                android:textSize="20sp" >
+            </EditText>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/pasword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounder_rectangle_visa_card"
+            android:ems="10"
+            android:gravity="center_horizontal|center_vertical"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="5dp"
+            android:textSize="20sp" >
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal" >
+
+            <CheckBox
+                android:id="@+id/save_details"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:text="Remember my details"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/registration_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/g_plus_button"
+            android:gravity="center_horizontal|bottom"
+            android:text="Done"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</ScrollView>

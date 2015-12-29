@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true" >
+
+    <ImageView
+        android:id="@+id/source_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:onClick="toggleToolbox"
+        android:clickable="true"
+        android:contentDescription="@string/img_desc"
+        android:scaleType="centerInside" />
+
+    <RelativeLayout
+        android:id="@+id/toolbox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <include layout="@layout/holder_save" />
+
+        <include layout="@layout/holder_apply_filter" />
+
+        <include layout="@layout/holder_hue" />
+
+        <include layout="@layout/holder_saturation" />
+
+        <include layout="@layout/holder_flip" />
+
+        <include layout="@layout/holder_boost" />
+
+        <include layout="@layout/holder_brightness" />
+
+        <include layout="@layout/holder_contrast" />
+
+        <include layout="@layout/holder_gamma" />
+
+        <include layout="@layout/holder_cbalance" />
+
+        <include layout="@layout/holder_cdepth" />
+
+        <include layout="@layout/holder_tint" />
+
+        <include layout="@layout/holder_filters" />
+    </RelativeLayout>
+
+</RelativeLayout>

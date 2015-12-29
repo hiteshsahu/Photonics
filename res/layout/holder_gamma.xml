@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/holder_gamma"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:background="#BB000000"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:visibility="gone" >
+
+    <TextView
+        android:id="@+id/gRed_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="@string/red"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/gRed_value"
+        style="@style/SeekBarAppThemeColorize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="48"
+        android:mirrorForRtl="false"
+        android:progress="24"
+        tools:ignore="UnusedAttribute" />
+
+    <TextView
+        android:id="@+id/gGreen_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/green"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/gGreen_value"
+        style="@style/SeekBarAppThemeGreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="48"
+        android:mirrorForRtl="false"
+        android:progress="24"
+        tools:ignore="UnusedAttribute" />
+
+    <TextView
+        android:id="@+id/gBlue_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/blue"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/gBlue_value"
+        style="@style/SeekBarAppThemeBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="48"
+        android:mirrorForRtl="false"
+        android:progress="24"
+        tools:ignore="UnusedAttribute" />
+
+</LinearLayout>

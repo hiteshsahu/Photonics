@@ -954,4 +954,7 @@ public class PixelFactoryJava {
 	        // return new bitmap rotated using matrix
 	        return Bitmap.createBitmap(src, 0, 0, src.getWidth(), src.getHeight(), matrix, true);
 	    }
+	    
+	    
+	    
 }

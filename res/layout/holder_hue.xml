@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/holder_hue"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:clickable="true"
+    android:background="#BB000000"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:visibility="gone" >
+
+    <TextView
+        android:id="@+id/hue_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="@string/hue"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/hue_value"
+        style="@style/SeekBarAppThemeColorize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="360"
+        android:mirrorForRtl="false"
+        android:progress="0"
+        tools:ignore="UnusedAttribute" />
+
+</LinearLayout>

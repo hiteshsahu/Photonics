@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/holder_tint"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:background="#BB000000"
+    android:orientation="horizontal"
+    android:clickable="true"
+    android:paddingTop="3dp"
+    android:visibility="gone" >
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:scrollbars="none"
+        tools:ignore="UselessParent" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <!-- GREEN -->
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#1E8D24"
+                android:clickable="true"
+                android:onClick="applyTint"
+                android:tag="#FF1E8D24" />
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#374D1F"
+                android:clickable="true"
+                android:onClick="applyTint"
+                android:tag="#FF374D1F" />
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#04A639"
+                android:clickable="true"
+                android:onClick="applyTint"
+                android:tag="#FF04A639" />
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#A0D722"
+                android:clickable="true"
+                android:onClick="applyTint"
+                android:tag="#FFA0D722" />
+
+            <!-- RED -->
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#C41430"
+                android:clickable="true"
+                android:onClick="applyTint"
+                android:tag="#FFC41430" />
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#FF0000"
+                android:clickable="true"
+                android:onClick="applyTint"
+                android:tag="#FFFF0000" />
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#FF3300"
+                android:clickable="true"
+                android:onClick="applyTint"
+                android:tag="#FFFF3300" />
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#AD343A"
+                android:clickable="true"
+                android:onClick="applyTint"
+                android:tag="#FFAD343A" />
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#7B2A26"
+                android:clickable="true"
+                android:onClick="applyTint"
+                android:tag="#FF7B2A26" />
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#9B162F"
+                android:clickable="true"
+                android:onClick="applyTint"
+                android:tag="#FF9B162F" />
+
+            <!-- PURPLE -->
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#FF29E8"
+                android:clickable="true"
+                android:onClick="applyTint"
+                android:tag="#FFFF29E8" />
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#862B73"
+                android:clickable="true"
+                android:onClick="applyTint"
+                android:tag="#FF862B73" />
+
+            <!-- BLUE -->
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#01A6A8"
+                android:clickable="true"
+                android:onClick="applyTint"
+                android:tag="#FF01A6A8" />
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#147C87"
+                android:clickable="true"
+                android:onClick="applyTint"
+                android:tag="#FF147C87" />
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#3C4056"
+                android:clickable="true"
+                android:onClick="applyTint"
+                android:tag="#FF3C4056" />
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#0120C1"
+                android:clickable="true"
+                android:onClick="applyTint"
+                android:tag="#FF0120C1" />
+
+            <!-- OTHER -->
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#F3C538"
+                android:clickable="true"
+                android:onClick="applyTint"
+                android:tag="#FFF3C538" />
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#0A1D19"
+                android:clickable="true"
+                android:onClick="applyTint"
+                android:tag="#FF0A1D19" />
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#F27B35"
+                android:clickable="true"
+                android:onClick="applyTint"
+                android:tag="#FFF27B35" />
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#F2B885"
+                android:clickable="true"
+                android:onClick="applyTint"
+                android:tag="#FFF2B885" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

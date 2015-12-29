@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/btn_holder"
+    android:layout_width="70dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_centerVertical="true"
+    android:background="#BB000000"
+    android:orientation="vertical"
+    android:visibility="gone" >
+
+    <ImageView
+        android:id="@+id/undo_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#BB000000"
+        android:contentDescription="@string/img_desc"
+        android:onClick="onClickUndo"
+        android:src="@drawable/ic_undo" />
+    
+    <ImageView
+        android:id="@+id/save_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#BB000000"
+        android:contentDescription="@string/img_desc"
+        android:onClick="onClickSave"
+        android:src="@drawable/ic_save" />
+
+</LinearLayout>

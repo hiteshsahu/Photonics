@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/holder_flip"
+    android:layout_width="205dp"
+    android:layout_height="match_parent"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:background="#BB000000"
+    android:clickable="true"
+    android:layoutDirection="ltr"
+    android:orientation="horizontal"
+    android:padding="20dp"
+    android:visibility="gone"
+    tools:ignore="UnusedAttribute" >
+
+    <RelativeLayout
+        android:layout_width="80dp"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/rotate_label"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="@string/rotate"
+            android:textSize="18sp" />
+
+        <android.widget.VerticalSeekBar
+            android:id="@+id/rotate_value"
+            style="@style/SeekBarAppThemeColorize"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rotate_label"
+            android:layout_centerHorizontal="true"
+            android:max="360"
+            android:mirrorForRtl="false"
+            android:progress="0"
+            tools:ignore="UnusedAttribute" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="85dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/flip_v"
+            style="@style/ButtonAppThemeColorize"
+            android:layout_width="85dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="onFlipV"
+            android:text="@string/flip_v"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/flip_h"
+            style="@style/ButtonAppThemeColorize"
+            android:layout_width="85dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="onFlipH"
+            android:text="@string/flip_h"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>
